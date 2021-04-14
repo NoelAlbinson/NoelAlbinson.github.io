@@ -87,7 +87,7 @@ h1 {
 }
 
 /* Desktop */
-@media (min-width:700px) {
+@media (min-width:1600px) {
     .start_screen {
         margin-top: 300px;
         margin-left: 30%;
@@ -98,6 +98,18 @@ h1 {
     }
 }
 
+/* Desktop */
+@media (min-width:700px) and (max-width: 1600px) {
+    .start_screen {
+        margin-top: 150px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .button {
+        width: 200px;
+    }
+}
 /* Phone */
 @media (max-width:700px) {
     .start_screen {
