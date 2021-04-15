@@ -101,7 +101,7 @@ h1 {
 /* Laptop */
 @media (min-width:700px) and (max-width: 1600px) {
     .start_screen {
-        margin-top: 100px;
+        margin-top: 50px;
         margin-left: 30%;
         margin-right: 30%;
     }
